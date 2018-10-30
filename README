@@ -1,0 +1,15 @@
+To run the code, do the following
+
+1.  cd codebook
+    cmake .
+    make
+    ./CBDriver <name-of-video>
+
+2.  cd mog
+    cmake .
+    make
+    ./VideoTest -vid <name-of-video>
+
+3. We have not added the source code for ViBe because it was available from the authors on request.
+
+4. The codebook algorithm here is that after the implementation of edge detection and cache based filtering.

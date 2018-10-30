@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(VideoTest)
+find_package(OpenCV REQUIRED)
+add_executable(VideoTest mogi.cpp)
+target_link_libraries(VideoTest ${OpenCV_LIBS})
